@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Response Sheet Evaluator</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+
+    <script src="static/script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Smart Response Sheet Evaluator</h2>
+        <p>Paste your response sheet URL below and click "Evaluate My Answer Key".</p>
+
+        <input type="text" id="responseUrl" placeholder="Paste your response sheet URL here">
+        <button onclick="evaluateResponse()">Evaluate My Answer Key</button>
+
+        <div id="result" class="hidden">
+            <h3>Evaluation Results</h3>
+            <p><strong>Total Marks:</strong> <span id="totalMarks"></span></p>
+            <p><strong>Correct Answers:</strong> <span id="correctAnswers"></span></p>
+            <p><strong>Incorrect Answers:</strong> <span id="incorrectAnswers"></span></p>
+            <p><strong>Unattempted Questions:</strong> <span id="unattemptedQuestions"></span></p>
+
+            <h3>Subject-wise Marks Distribution</h3>
+            <canvas id="subjectScoreChart"></canvas>
+
+            <h3>Question Attempt Status</h3>
+            <canvas id="attemptStatusChart"></canvas>
+        </div>
+    </div>
+
+</body>
+</html>

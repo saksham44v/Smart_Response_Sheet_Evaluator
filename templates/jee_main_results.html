@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEE Main Result</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="static\jee_results_styles.css" rel="stylesheet">
+
+    <script type="text/javascript">
+        const data = {{ result | tojson }};
+       // console.log(data); // Checking if the result is passed correctly
+    //  <script>
+        {% if questions is defined %}
+           const q = {{ questions | tojson }};
+        {% else %}
+           const q = null;
+        {% endif %}
+
+        {% if answers is defined %}
+           const answer = {{answers | tojson }};
+        {% else %}
+           const answer = null;
+        {% endif %}
+        
+        {% if topics is defined %}
+        const topics = {{ topics | tojson }};
+        {% else %}
+        const topics = null;
+        {% endif %}
+
+</script>
+
+    </script>
+    <script src="static\jee_results_script.js"></script>
+    <style>
+        /* Custom CSS for the detailed table */
+        .detailed-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+        }
+        .detailed-table thead {
+            background-color: #f3f4f6;
+        }
+        .detailed-table th, .detailed-table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .detailed-table th {
+            font-weight: 600;
+        }
+        .detailed-table tbody tr:hover {
+            background-color: #f7fafc;
+        }
+
+        /* Custom CSS for circular progress */
+        .circular-progress-container {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: #e5e7eb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circular-progress {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: conic-gradient(
+                #6366f1,
+                #e5e7eb 0
+            );
+            clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 100%, 50% 100%);
+            transform: rotate(-90deg);
+        }
+
+        .progress-content {
+            position: relative;
+            width: 90%;
+            height: 90%;
+            border-radius: 50%;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #4b5563;
+        }
+
+        /* Custom CSS for progress bar */
+        .progress-bar-container {
+            background-color: #f0f0f0;
+            border-radius: 0.5rem;
+            height: 0.5rem;
+            margin: 0.5rem 0;
+            position: relative;
+        }
+        .progress-bar-fill {
+            background-color: #4CAF50;
+            border-radius: 0.5rem;
+            height: 100%;
+            width: 0;
+            transition: width 0.5s ease;
+        }
+        .progress-text {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-inter">
+    <div class="container mx-auto p-6">
+        <h1 class="text-2xl font-semibold text-gray-800 mb-8 text-center">JEE Main Result Analysis</h1>
+
+        <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <div class="flex items-center gap-4 mb-6">
+                <div class="w-12 h-12 rounded-full bg-indigo-500 flex items-center justify-center">
+                    <i class="fas fa-signal text-white text-2xl"></i>
+                </div>
+                <div>
+                    <p class="text-xl font-semibold text-gray-700">Total Score</p>
+                    <p class="text-2xl font-bold text-indigo-600"><span id="total-score">{{ result.total_score }}</span> / 300</p>
+                </div>
+            </div>
+            <h2 class="text-xl font-semibold text-gray-700 mb-4">Your Progress</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-gray-50 rounded-lg shadow-md p-4 flex items-center gap-4">
+                    <i class="fas fa-pencil-alt text-blue-500"></i>
+                    <div class="w-full">
+                        <div class="progress-text">
+                            <span class="text-gray-600">Attempted</span>
+                            <span id="attempted" class="text-gray-600">{{ result.attempted }} / {{ result.attempted + result.skipped }}</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div id="attempted-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg shadow-md p-4 flex items-center gap-4">
+                    <i class="fas fa-check-circle text-green-500"></i>
+                    <div class="w-full">
+                        <div class="progress-text">
+                            <span  class="text-gray-600">Correct</span>
+                            <span id="correct" class="text-gray-600">{{ result.correct }} / {{ result.attempted }}</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div  id="correct-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg shadow-md p-4 flex items-center gap-4">
+                    <i class="fas fa-times-circle text-red-500"></i>
+                    <div class="w-full">
+                        <div class="progress-text">
+                             <span class="text-gray-600">Incorrect</span>
+                             <span id="incorrect" class="text-gray-600">{{ result.incorrect }} / {{ result.attempted }}</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div id="incorrect-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg shadow-md p-4 flex items-center gap-4">
+                    <i class="far fa-circle text-gray-500"></i>
+                     <div class="w-full">
+                        <div class="progress-text">
+                            <span class="text-gray-600">Skipped</span>
+                            <span id="skipped" class="text-gray-600">{{ result.skipped }} / {{ result.attempted + result.skipped }}</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div id="skipped-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg shadow-md p-4 flex items-center gap-4">
+                    <i class="fas fa-check-double text-indigo-500"></i>
+                    <div class="w-full">
+                         <div class="progress-text">
+                            <span class="text-gray-600">Completed</span>
+                            <span id="completed-percentage" class="text-gray-600">{{ result.completed_percentage }}%</span>
+                         </div>
+                        <div class="progress-bar-container">
+                            <div id="completed-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="bg-gray-50 rounded-lg shadow-md p-4 flex items-center gap-4">
+                    <i class="fas fa-percent text-purple-500"></i>
+                    <div class="w-full">
+                        <div class="progress-text">
+                            <span class="text-gray-600">Accuracy</span>
+                            <span id="accuracy" class="text-gray-600">{{ result.accuracy }}%</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div id="accuracy-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold text-gray-700 mb-6">Subject-wise Progress</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-md">
+                    <div class="bg-gray-100 p-4 rounded-t-lg flex items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800">Physics</h3>
+                            <p class="text-sm text-gray-500">Out of 100</p>
+                        </div>
+                        <div class="circular-progress-container">
+                            <div class="circular-progress" id="physics-progress"></div>
+                            <div class="progress-content" id="physics-score">{{ result.subject_data.Physics.score }}</div>
+                        </div>
+                    </div>
+                    <div class="p-4 space-y-2">
+                        <div class="bg-white rounded-lg p-2 flex justify-between items-center">
+                            <span class="text-gray-600">Attempted</span>
+                            <span id="physics-attempted" class="text-gray-700 font-medium">{{ result.subject_data.Physics.attempted }} / {{25 }}</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div id="physics-attempted-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                        <div class="bg-white rounded-lg p-2 flex justify-between items-center">
+                            <span class="text-gray-600">Correct</span>
+                            <span id="physics-correct" class="text-green-600 font-medium">{{ result.subject_data.Physics.correct }} / {{ result.subject_data.Physics.attempted }}</span>
+                        </div>
+                         <div class="progress-bar-container">
+                            <div id="physics-correct-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                        <div class="bg-white rounded-lg p-2 flex justify-between items-center">
+                            <span class="text-gray-600">Incorrect</span>
+                            <span id="physics-incorrect" class="text-red-600 font-medium">{{ result.subject_data.Physics.incorrect }} / {{ result.subject_data.Physics.attempted }}</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div id="physics-incorrect-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                        <div class="bg-white rounded-lg p-2 flex justify-between items-center">
+                            <span class="text-gray-600">Accuracy</span>
+                            <span id="physics-accuracy" class="text-blue-600 font-medium">{{ result.subject_data.Physics.accuracy }}%</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div id="physics-accuracy-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md">
+                    <div class="bg-gray-100 p-4 rounded-t-lg flex items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800">Chemistry</h3>
+                            <p class="text-sm text-gray-500">Out of 100</p>
+                        </div>
+                        <div class="circular-progress-container">
+                            <div class="circular-progress" id="chemistry-progress"></div>
+                            <div class="progress-content" id="chemistry-score">{{ result.subject_data.Chemistry.score }}</div>
+                        </div>
+                    </div>
+                    <div class="p-4 space-y-2">
+                        <div class="bg-white rounded-lg p-2 flex justify-between items-center">
+                            <span class="text-gray-600">Attempted</span>
+                            <span id="chemistry-attempted" class="text-gray-700 font-medium">{{ result.subject_data.Chemistry.attempted }} / {{25}}</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div id="chemistry-attempted-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                        <div class="bg-white rounded-lg p-2 flex justify-between items-center">
+                            <span class="text-gray-600">Correct</span>
+                            <span id="chemistry-correct" class="text-green-600 font-medium">{{ result.subject_data.Chemistry.correct }} / {{ result.subject_data.Chemistry.attempted }}</span>
+                        </div>
+                         <div class="progress-bar-container">
+                            <div id="chemistry-correct-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                        <div class="bg-white rounded-lg p-2 flex justify-between items-center">
+                            <span class="text-gray-600">Incorrect</span>
+                            <span id="chemistry-incorrect" class="text-red-600 font-medium">{{ result.subject_data.Chemistry.incorrect }} / {{ result.subject_data.Chemistry.attempted }}</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div id="chemistry-incorrect-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                        <div class="bg-white rounded-lg p-2 flex justify-between items-center">
+                            <span class="text-gray-600">Accuracy</span>
+                            <span id="chemistry-accuracy" class="text-blue-600 font-medium">{{ result.subject_data.Chemistry.accuracy }}%</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div id="chemistry-accuracy-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md">
+                    <div class="bg-gray-100 p-4 rounded-t-lg flex items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800">Maths</h3>
+                            <p class="text-sm text-gray-500">Out of 100</p>
+                        </div>
+                        <div class="circular-progress-container">
+                            <div class="circular-progress" id="maths-progress"></div>
+                            <div class="progress-content" id="maths-score">{{ result.subject_data.Mathematics.score }}</div>
+                        </div>
+                    </div>
+                    <div class="p-4 space-y-2">
+                        <div class="bg-white rounded-lg p-2 flex justify-between items-center">
+                            <span class="text-gray-600">Attempted</span>
+                            <span id="maths-attempted" class="text-gray-700 font-medium">{{ result.subject_data.Mathematics.attempted }} / {{25}}</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div id="maths-attempted-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                        <div class="bg-white rounded-lg p-2 flex justify-between items-center">
+                            <span class="text-gray-600">Correct</span>
+                            <span id="maths-correct" class="text-green-600 font-medium">{{ result.subject_data.Mathematics.correct }} / {{ result.subject_data.Mathematics.attempted }}</span>
+                        </div>
+                         <div class="progress-bar-container">
+                            <div id="maths-correct-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                        <div class="bg-white rounded-lg p-2 flex justify-between items-center">
+                            <span class="text-gray-600">Incorrect</span>
+                            <span id="maths-incorrect" class="text-red-600 font-medium">{{ result.subject_data.Mathematics.incorrect }} / {{ result.subject_data.Mathematics.attempted }}</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div id="maths-incorrect-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                        <div class="bg-white rounded-lg p-2 flex justify-between items-center">
+                            <span class="text-gray-600">Accuracy</span>
+                            <span id="maths-accuracy" class="text-blue-600 font-medium">{{ result.subject_data.Mathematics.accuracy }}%</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div id="maths-accuracy-progress-bar" class="progress-bar-fill"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+<!-- Corrected HTML structure -->
+<div class="simplee">
+    <h1 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Detailed description</h1>
+    
+    <div id="number-container" class="flex flex-wrap justify-center gap-2 mb-6">
+        <!-- Number buttons will be generated here -->
+    </div>
+    
+    <div id="dynamic-container">
+        <!-- Question and options will be displayed here -->
+    </div>
+</div>
+
+
+    </div>
+    </body>
+    </html>

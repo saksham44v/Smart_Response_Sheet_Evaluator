@@ -1,0 +1,32 @@
+{
+    "total_score": 150,
+    "percentile": 92.5,
+    "rank": 120,
+    "attempted": 55,
+    "correct": 40,
+    "incorrect": 15,
+    "skipped": 20,
+    "accuracy": 72.7,
+
+    "physics": {
+        "score": 50,
+        "attempted": 20,
+        "correct": 15,
+        "incorrect": 5,
+        "accuracy": 75.0
+    },
+    "chemistry": {
+        "score": 45,
+        "attempted": 18,
+        "correct": 12,
+        "incorrect": 6,
+        "accuracy": 66.7
+    },
+    "maths": {
+        "score": 55,
+        "attempted": 17,
+        "correct": 13,
+        "incorrect": 4,
+        "accuracy": 76.5
+    }
+}

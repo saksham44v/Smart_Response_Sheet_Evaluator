@@ -1,0 +1,23 @@
+{
+  "name": "response-sheet-smart-evaluator",
+  "version": "1.0.0",
+  "description": "A website to evaluate response sheet and calculate marks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saksham44v/Response-sheet-smart-evaluator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saksham44v/Response-sheet-smart-evaluator/issues"
+  },
+  "homepage": "https://github.com/saksham44v/Response-sheet-smart-evaluator#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.1.4"
+  }
+}

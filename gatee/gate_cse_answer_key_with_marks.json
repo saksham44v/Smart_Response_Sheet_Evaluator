@@ -1,0 +1,627 @@
+{
+  "6420084963": {
+    "question_image_url": "downloaded_images\\6420084963_question.png",
+    "correct_ans": "A",
+    "option_image_urls": [
+      "downloaded_images\\6420084963_option_1.png",
+      "downloaded_images\\6420084963_option_2.png",
+      "downloaded_images\\6420084963_option_3.png",
+      "downloaded_images\\6420084963_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084964": {
+    "question_image_url": "downloaded_images\\6420084964_question.png",
+    "correct_ans": "D",
+    "option_image_urls": [
+      "downloaded_images\\6420084964_option_1.png",
+      "downloaded_images\\6420084964_option_2.png",
+      "downloaded_images\\6420084964_option_3.png",
+      "downloaded_images\\6420084964_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084965": {
+    "question_image_url": "downloaded_images\\6420084965_question.png",
+    "correct_ans": "D",
+    "option_image_urls": [
+      "downloaded_images\\6420084965_option_1.png",
+      "downloaded_images\\6420084965_option_2.png",
+      "downloaded_images\\6420084965_option_3.png",
+      "downloaded_images\\6420084965_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084966": {
+    "question_image_url": "downloaded_images\\6420084966_question.png",
+    "correct_ans": "C",
+    "option_image_urls": [
+      "downloaded_images\\6420084966_option_1.png",
+      "downloaded_images\\6420084966_option_2.png",
+      "downloaded_images\\6420084966_option_3.png",
+      "downloaded_images\\6420084966_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084967": {
+    "question_image_url": "downloaded_images\\6420084967_question.png",
+    "correct_ans": "C",
+    "option_image_urls": [
+      "downloaded_images\\6420084967_option_1.png",
+      "downloaded_images\\6420084967_option_2.png",
+      "downloaded_images\\6420084967_option_3.png",
+      "downloaded_images\\6420084967_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084968": {
+    "question_image_url": "downloaded_images\\6420084968_question.png",
+    "correct_ans": "A",
+    "option_image_urls": [
+      "downloaded_images\\6420084968_option_1.png",
+      "downloaded_images\\6420084968_option_2.png",
+      "downloaded_images\\6420084968_option_3.png",
+      "downloaded_images\\6420084968_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084969": {
+    "question_image_url": "downloaded_images\\6420084969_question.png",
+    "correct_ans": "C",
+    "option_image_urls": [
+      "downloaded_images\\6420084969_option_1.png",
+      "downloaded_images\\6420084969_option_2.png",
+      "downloaded_images\\6420084969_option_3.png",
+      "downloaded_images\\6420084969_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084970": {
+    "question_image_url": "downloaded_images\\6420084970_question.png",
+    "correct_ans": "D",
+    "option_image_urls": [
+      "downloaded_images\\6420084970_option_1.png",
+      "downloaded_images\\6420084970_option_2.png",
+      "downloaded_images\\6420084970_option_3.png",
+      "downloaded_images\\6420084970_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084971": {
+    "question_image_url": "downloaded_images\\6420084971_question.png",
+    "correct_ans": "D",
+    "option_image_urls": [
+      "downloaded_images\\6420084971_option_1.png",
+      "downloaded_images\\6420084971_option_2.png",
+      "downloaded_images\\6420084971_option_3.png",
+      "downloaded_images\\6420084971_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084972": {
+    "question_image_url": "downloaded_images\\6420084972_question.png",
+    "correct_ans": "A",
+    "option_image_urls": [
+      "downloaded_images\\6420084972_option_1.png",
+      "downloaded_images\\6420084972_option_2.png",
+      "downloaded_images\\6420084972_option_3.png",
+      "downloaded_images\\6420084972_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084973": {
+    "question_image_url": "downloaded_images\\6420084973_question.png",
+    "correct_ans": "A",
+    "option_image_urls": [
+      "downloaded_images\\6420084973_option_1.png",
+      "downloaded_images\\6420084973_option_2.png",
+      "downloaded_images\\6420084973_option_3.png",
+      "downloaded_images\\6420084973_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084974": {
+    "question_image_url": "downloaded_images\\6420084974_question.png",
+    "correct_ans": "C",
+    "option_image_urls": [
+      "downloaded_images\\6420084974_option_1.png",
+      "downloaded_images\\6420084974_option_2.png",
+      "downloaded_images\\6420084974_option_3.png",
+      "downloaded_images\\6420084974_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084975": {
+    "question_image_url": "downloaded_images\\6420084975_question.png",
+    "correct_ans": "C",
+    "option_image_urls": [
+      "downloaded_images\\6420084975_option_1.png",
+      "downloaded_images\\6420084975_option_2.png",
+      "downloaded_images\\6420084975_option_3.png",
+      "downloaded_images\\6420084975_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084976": {
+    "question_image_url": "downloaded_images\\6420084976_question.png",
+    "correct_ans": "D",
+    "option_image_urls": [
+      "downloaded_images\\6420084976_option_1.png",
+      "downloaded_images\\6420084976_option_2.png",
+      "downloaded_images\\6420084976_option_3.png",
+      "downloaded_images\\6420084976_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084977": {
+    "question_image_url": "downloaded_images\\6420084977_question.png",
+    "correct_ans": "C",
+    "option_image_urls": [
+      "downloaded_images\\6420084977_option_1.png",
+      "downloaded_images\\6420084977_option_2.png",
+      "downloaded_images\\6420084977_option_3.png",
+      "downloaded_images\\6420084977_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084978": {
+    "question_image_url": "downloaded_images\\6420084978_question.png",
+    "correct_ans": "B",
+    "option_image_urls": [
+      "downloaded_images\\6420084978_option_1.png",
+      "downloaded_images\\6420084978_option_2.png",
+      "downloaded_images\\6420084978_option_3.png",
+      "downloaded_images\\6420084978_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084979": {
+    "question_image_url": "downloaded_images\\6420084979_question.png",
+    "correct_ans": "A",
+    "option_image_urls": [
+      "downloaded_images\\6420084979_option_1.png",
+      "downloaded_images\\6420084979_option_2.png",
+      "downloaded_images\\6420084979_option_3.png",
+      "downloaded_images\\6420084979_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084980": {
+    "question_image_url": "downloaded_images\\6420084980_question.png",
+    "correct_ans": "C",
+    "option_image_urls": [
+      "downloaded_images\\6420084980_option_1.png",
+      "downloaded_images\\6420084980_option_2.png",
+      "downloaded_images\\6420084980_option_3.png",
+      "downloaded_images\\6420084980_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084981": {
+    "question_image_url": "downloaded_images\\6420084981_question.png",
+    "correct_ans": "D",
+    "option_image_urls": [
+      "downloaded_images\\6420084981_option_1.png",
+      "downloaded_images\\6420084981_option_2.png",
+      "downloaded_images\\6420084981_option_3.png",
+      "downloaded_images\\6420084981_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084982": {
+    "question_image_url": "downloaded_images\\6420084982_question.png",
+    "correct_ans": "A",
+    "option_image_urls": [
+      "downloaded_images\\6420084982_option_1.png",
+      "downloaded_images\\6420084982_option_2.png",
+      "downloaded_images\\6420084982_option_3.png",
+      "downloaded_images\\6420084982_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084983": {
+    "question_image_url": "downloaded_images\\6420084983_question.png",
+    "correct_ans": "D",
+    "option_image_urls": [
+      "downloaded_images\\6420084983_option_1.png",
+      "downloaded_images\\6420084983_option_2.png",
+      "downloaded_images\\6420084983_option_3.png",
+      "downloaded_images\\6420084983_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084984": {
+    "question_image_url": "downloaded_images\\6420084984_question.png",
+    "correct_ans": "C",
+    "option_image_urls": [
+      "downloaded_images\\6420084984_option_1.png",
+      "downloaded_images\\6420084984_option_2.png",
+      "downloaded_images\\6420084984_option_3.png",
+      "downloaded_images\\6420084984_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084985": {
+    "question_image_url": "downloaded_images\\6420084985_question.png",
+    "correct_ans": "A",
+    "option_image_urls": [
+      "downloaded_images\\6420084985_option_1.png",
+      "downloaded_images\\6420084985_option_2.png",
+      "downloaded_images\\6420084985_option_3.png",
+      "downloaded_images\\6420084985_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084986": {
+    "question_image_url": "downloaded_images\\6420084986_question.png",
+    "correct_ans": "A;B;C",
+    "option_image_urls": [
+      "downloaded_images\\6420084986_option_1.png",
+      "downloaded_images\\6420084986_option_2.png",
+      "downloaded_images\\6420084986_option_3.png",
+      "downloaded_images\\6420084986_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084987": {
+    "question_image_url": "downloaded_images\\6420084987_question.png",
+    "correct_ans": "B;C",
+    "option_image_urls": [
+      "downloaded_images\\6420084987_option_1.png",
+      "downloaded_images\\6420084987_option_2.png",
+      "downloaded_images\\6420084987_option_3.png",
+      "downloaded_images\\6420084987_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084988": {
+    "question_image_url": "downloaded_images\\6420084988_question.png",
+    "correct_ans": "B;C",
+    "option_image_urls": [
+      "downloaded_images\\6420084988_option_1.png",
+      "downloaded_images\\6420084988_option_2.png",
+      "downloaded_images\\6420084988_option_3.png",
+      "downloaded_images\\6420084988_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084989": {
+    "question_image_url": "downloaded_images\\6420084989_question.png",
+    "correct_ans": "A;C;D",
+    "option_image_urls": [
+      "downloaded_images\\6420084989_option_1.png",
+      "downloaded_images\\6420084989_option_2.png",
+      "downloaded_images\\6420084989_option_3.png",
+      "downloaded_images\\6420084989_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084990": {
+    "question_image_url": "downloaded_images\\6420084990_question.png",
+    "correct_ans": "A;C",
+    "option_image_urls": [
+      "downloaded_images\\6420084990_option_1.png",
+      "downloaded_images\\6420084990_option_2.png",
+      "downloaded_images\\6420084990_option_3.png",
+      "downloaded_images\\6420084990_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084991": {
+    "question_image_url": "downloaded_images\\6420084991_question.png",
+    "correct_ans": "A;D",
+    "option_image_urls": [
+      "downloaded_images\\6420084991_option_1.png",
+      "downloaded_images\\6420084991_option_2.png",
+      "downloaded_images\\6420084991_option_3.png",
+      "downloaded_images\\6420084991_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084992": {
+    "question_image_url": "downloaded_images\\6420084992_question.png",
+    "correct_ans": "B;D",
+    "option_image_urls": [
+      "downloaded_images\\6420084992_option_1.png",
+      "downloaded_images\\6420084992_option_2.png",
+      "downloaded_images\\6420084992_option_3.png",
+      "downloaded_images\\6420084992_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084993": {
+    "question_image_url": "downloaded_images\\6420084993_question.png",
+    "correct_ans": "A",
+    "option_image_urls": [
+      "downloaded_images\\6420084993_option_1.png",
+      "downloaded_images\\6420084993_option_2.png",
+      "downloaded_images\\6420084993_option_3.png",
+      "downloaded_images\\6420084993_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084994": {
+    "question_image_url": "downloaded_images\\6420084994_question.png",
+    "correct_ans": "C;D",
+    "option_image_urls": [
+      "downloaded_images\\6420084994_option_1.png",
+      "downloaded_images\\6420084994_option_2.png",
+      "downloaded_images\\6420084994_option_3.png",
+      "downloaded_images\\6420084994_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084995": {
+    "question_image_url": "downloaded_images\\6420084995_question.png",
+    "correct_ans": "A;B;C",
+    "option_image_urls": [
+      "downloaded_images\\6420084995_option_1.png",
+      "downloaded_images\\6420084995_option_2.png",
+      "downloaded_images\\6420084995_option_3.png",
+      "downloaded_images\\6420084995_option_4.png"
+    ],
+    "marks": 1.0
+  },
+  "6420084996": {
+    "question_image_url": "downloaded_images\\6420084996_question.png",
+    "correct_ans": "5 TO 5",
+    "marks": 1.0
+  },
+  "6420084997": {
+    "question_image_url": "downloaded_images\\6420084997_question.png",
+    "correct_ans": "3 TO 3",
+    "marks": 1.0
+  },
+  "6420084998": {
+    "question_image_url": "downloaded_images\\6420084998_question.png",
+    "correct_ans": "A",
+    "option_image_urls": [
+      "downloaded_images\\6420084998_option_1.png",
+      "downloaded_images\\6420084998_option_2.png",
+      "downloaded_images\\6420084998_option_3.png",
+      "downloaded_images\\6420084998_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420084999": {
+    "question_image_url": "downloaded_images\\6420084999_question.png",
+    "correct_ans": "D",
+    "option_image_urls": [
+      "downloaded_images\\6420084999_option_1.png",
+      "downloaded_images\\6420084999_option_2.png",
+      "downloaded_images\\6420084999_option_3.png",
+      "downloaded_images\\6420084999_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085000": {
+    "question_image_url": "downloaded_images\\6420085000_question.png",
+    "correct_ans": "D",
+    "option_image_urls": [
+      "downloaded_images\\6420085000_option_1.png",
+      "downloaded_images\\6420085000_option_2.png",
+      "downloaded_images\\6420085000_option_3.png",
+      "downloaded_images\\6420085000_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085001": {
+    "question_image_url": "downloaded_images\\6420085001_question.png",
+    "correct_ans": "D",
+    "option_image_urls": [
+      "downloaded_images\\6420085001_option_1.png",
+      "downloaded_images\\6420085001_option_2.png",
+      "downloaded_images\\6420085001_option_3.png",
+      "downloaded_images\\6420085001_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085002": {
+    "question_image_url": "downloaded_images\\6420085002_question.png",
+    "correct_ans": "A",
+    "option_image_urls": [
+      "downloaded_images\\6420085002_option_1.png",
+      "downloaded_images\\6420085002_option_2.png",
+      "downloaded_images\\6420085002_option_3.png",
+      "downloaded_images\\6420085002_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085003": {
+    "question_image_url": "downloaded_images\\6420085003_question.png",
+    "correct_ans": "B",
+    "option_image_urls": [
+      "downloaded_images\\6420085003_option_1.png",
+      "downloaded_images\\6420085003_option_2.png",
+      "downloaded_images\\6420085003_option_3.png",
+      "downloaded_images\\6420085003_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085004": {
+    "question_image_url": "downloaded_images\\6420085004_question.png",
+    "correct_ans": "C",
+    "option_image_urls": [
+      "downloaded_images\\6420085004_option_1.png",
+      "downloaded_images\\6420085004_option_2.png",
+      "downloaded_images\\6420085004_option_3.png",
+      "downloaded_images\\6420085004_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085005": {
+    "question_image_url": "downloaded_images\\6420085005_question.png",
+    "correct_ans": "A",
+    "option_image_urls": [
+      "downloaded_images\\6420085005_option_1.png",
+      "downloaded_images\\6420085005_option_2.png",
+      "downloaded_images\\6420085005_option_3.png",
+      "downloaded_images\\6420085005_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085006": {
+    "question_image_url": "downloaded_images\\6420085006_question.png",
+    "correct_ans": "D",
+    "option_image_urls": [
+      "downloaded_images\\6420085006_option_1.png",
+      "downloaded_images\\6420085006_option_2.png",
+      "downloaded_images\\6420085006_option_3.png",
+      "downloaded_images\\6420085006_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085007": {
+    "question_image_url": "downloaded_images\\6420085007_question.png",
+    "correct_ans": "A",
+    "option_image_urls": [
+      "downloaded_images\\6420085007_option_1.png",
+      "downloaded_images\\6420085007_option_2.png",
+      "downloaded_images\\6420085007_option_3.png",
+      "downloaded_images\\6420085007_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085008": {
+    "question_image_url": "downloaded_images\\6420085008_question.png",
+    "correct_ans": "B;D",
+    "option_image_urls": [
+      "downloaded_images\\6420085008_option_1.png",
+      "downloaded_images\\6420085008_option_2.png",
+      "downloaded_images\\6420085008_option_3.png",
+      "downloaded_images\\6420085008_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085009": {
+    "question_image_url": "downloaded_images\\6420085009_question.png",
+    "correct_ans": "B;C",
+    "option_image_urls": [
+      "downloaded_images\\6420085009_option_1.png",
+      "downloaded_images\\6420085009_option_2.png",
+      "downloaded_images\\6420085009_option_3.png",
+      "downloaded_images\\6420085009_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085010": {
+    "question_image_url": "downloaded_images\\6420085010_question.png",
+    "correct_ans": "A;C;D",
+    "option_image_urls": [
+      "downloaded_images\\6420085010_option_1.png",
+      "downloaded_images\\6420085010_option_2.png",
+      "downloaded_images\\6420085010_option_3.png",
+      "downloaded_images\\6420085010_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085011": {
+    "question_image_url": "downloaded_images\\6420085011_question.png",
+    "correct_ans": "A;B;D",
+    "option_image_urls": [
+      "downloaded_images\\6420085011_option_1.png",
+      "downloaded_images\\6420085011_option_2.png",
+      "downloaded_images\\6420085011_option_3.png",
+      "downloaded_images\\6420085011_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085012": {
+    "question_image_url": "downloaded_images\\6420085012_question.png",
+    "correct_ans": "A;D",
+    "option_image_urls": [
+      "downloaded_images\\6420085012_option_1.png",
+      "downloaded_images\\6420085012_option_2.png",
+      "downloaded_images\\6420085012_option_3.png",
+      "downloaded_images\\6420085012_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085013": {
+    "question_image_url": "downloaded_images\\6420085013_question.png",
+    "correct_ans": "D",
+    "option_image_urls": [
+      "downloaded_images\\6420085013_option_1.png",
+      "downloaded_images\\6420085013_option_2.png",
+      "downloaded_images\\6420085013_option_3.png",
+      "downloaded_images\\6420085013_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085014": {
+    "question_image_url": "downloaded_images\\6420085014_question.png",
+    "correct_ans": "B;C",
+    "option_image_urls": [
+      "downloaded_images\\6420085014_option_1.png",
+      "downloaded_images\\6420085014_option_2.png",
+      "downloaded_images\\6420085014_option_3.png",
+      "downloaded_images\\6420085014_option_4.png"
+    ],
+    "marks": 2.0
+  },
+  "6420085015": {
+    "question_image_url": "downloaded_images\\6420085015_question.png",
+    "correct_ans": "29.50 TO 30.50",
+    "marks": 2.0
+  },
+  "6420085016": {
+    "question_image_url": "downloaded_images\\6420085016_question.png",
+    "correct_ans": "4 TO 4",
+    "marks": 2.0
+  },
+  "6420085017": {
+    "question_image_url": "downloaded_images\\6420085017_question.png",
+    "correct_ans": "500 TO 500",
+    "marks": 2.0
+  },
+  "6420085018": {
+    "question_image_url": "downloaded_images\\6420085018_question.png",
+    "correct_ans": "50 TO 50",
+    "marks": 2.0
+  },
+  "6420085019": {
+    "question_image_url": "downloaded_images\\6420085019_question.png",
+    "correct_ans": "32 TO 32",
+    "marks": 2.0
+  },
+  "6420085020": {
+    "question_image_url": "downloaded_images\\6420085020_question.png",
+    "correct_ans": "2.9 TO 3.1",
+    "marks": 2.0
+  },
+  "6420085021": {
+    "question_image_url": "downloaded_images\\6420085021_question.png",
+    "correct_ans": "9 TO 9",
+    "marks": 2.0
+  },
+  "6420085022": {
+    "question_image_url": "downloaded_images\\6420085022_question.png",
+    "correct_ans": "2 TO 2",
+    "marks": 2.0
+  },
+  "6420085023": {
+    "question_image_url": "downloaded_images\\6420085023_question.png",
+    "correct_ans": "34 TO 34",
+    "marks": 2.0
+  },
+  "6420085024": {
+    "question_image_url": "downloaded_images\\6420085024_question.png",
+    "correct_ans": "15 TO 15",
+    "marks": 2.0
+  },
+  "6420085025": {
+    "question_image_url": "downloaded_images\\6420085025_question.png",
+    "correct_ans": "4 TO 4",
+    "marks": 2.0
+  },
+  "6420085026": {
+    "question_image_url": "downloaded_images\\6420085026_question.png",
+    "correct_ans": "1208 TO 1208",
+    "marks": 2.0
+  },
+  "6420085027": {
+    "question_image_url": "downloaded_images\\6420085027_question.png",
+    "correct_ans": "9 TO 9",
+    "marks": 2.0
+  }
+}

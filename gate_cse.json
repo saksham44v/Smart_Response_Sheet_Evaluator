@@ -1,0 +1,902 @@
+{
+  "6420084963": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "GA",
+    "key_or_range": "C",
+    "marks": 1,
+    "page": 1,
+    "question_image": "gatee\\cs_question_snapshots\\p01_Q1_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p01_Q1_A.png",
+      "gatee\\cs_question_snapshots\\p01_Q1_B.png",
+      "gatee\\cs_question_snapshots\\p01_Q1_C.png",
+      "gatee\\cs_question_snapshots\\p01_Q1_D.png"
+    ]
+  },
+  "6420084964": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "GA",
+    "key_or_range": "A",
+    "marks": 1,
+    "page": 1,
+    "question_image": "gatee\\cs_question_snapshots\\p01_Q2_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p01_Q2_A.png",
+      "gatee\\cs_question_snapshots\\p01_Q2_B.png",
+      "gatee\\cs_question_snapshots\\p01_Q2_C.png",
+      "gatee\\cs_question_snapshots\\p01_Q2_D.png"
+    ]
+  },
+  "6420084965": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "GA",
+    "key_or_range": "A",
+    "marks": 1,
+    "page": 2,
+    "question_image": "gatee\\cs_question_snapshots\\p02_Q3_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p02_Q3_A.png",
+      "gatee\\cs_question_snapshots\\p02_Q3_B.png",
+      "gatee\\cs_question_snapshots\\p02_Q3_C.png",
+      "gatee\\cs_question_snapshots\\p02_Q3_D.png"
+    ]
+  },
+  "6420084966": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "GA",
+    "key_or_range": "C",
+    "marks": 1,
+    "page": 2,
+    "question_image": "gatee\\cs_question_snapshots\\p02_Q4_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p02_Q4_A.png",
+      "gatee\\cs_question_snapshots\\p02_Q4_B.png",
+      "gatee\\cs_question_snapshots\\p02_Q4_C.png",
+      "gatee\\cs_question_snapshots\\p02_Q4_D.png"
+    ]
+  },
+  "6420084967": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "GA",
+    "key_or_range": "B",
+    "marks": 1,
+    "page": 3,
+    "question_image": "gatee\\cs_question_snapshots\\p03_Q5_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p03_Q5_A.png",
+      "gatee\\cs_question_snapshots\\p03_Q5_B.png",
+      "gatee\\cs_question_snapshots\\p03_Q5_C.png",
+      "gatee\\cs_question_snapshots\\p03_Q5_D.png"
+    ]
+  },
+  "6420084968": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "GA",
+    "key_or_range": "C",
+    "marks": 2,
+    "page": 4,
+    "question_image": "gatee\\cs_question_snapshots\\p04_Q6_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p04_Q6_A.png",
+      "gatee\\cs_question_snapshots\\p04_Q6_B.png",
+      "gatee\\cs_question_snapshots\\p04_Q6_C.png",
+      "gatee\\cs_question_snapshots\\p04_Q6_D.png"
+    ]
+  },
+  "6420084969": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "GA",
+    "key_or_range": "C",
+    "marks": 2,
+    "page": 5,
+    "question_image": "gatee\\cs_question_snapshots\\p05_Q7_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p05_Q7_A.png",
+      "gatee\\cs_question_snapshots\\p05_Q7_B.png",
+      "gatee\\cs_question_snapshots\\p05_Q7_C.png",
+      "gatee\\cs_question_snapshots\\p05_Q7_D.png"
+    ]
+  },
+  "6420084970": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "GA",
+    "key_or_range": "D",
+    "marks": 2,
+    "page": 6,
+    "question_image": "gatee\\cs_question_snapshots\\p06_Q8_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p06_Q8_A.png",
+      "gatee\\cs_question_snapshots\\p06_Q8_B.png",
+      "gatee\\cs_question_snapshots\\p06_Q8_C.png",
+      "gatee\\cs_question_snapshots\\p06_Q8_D.png"
+    ]
+  },
+  "6420084971": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "GA",
+    "key_or_range": "A",
+    "marks": 2,
+    "page": 7,
+    "question_image": "gatee\\cs_question_snapshots\\p07_Q9_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p07_Q9_A.png",
+      "gatee\\cs_question_snapshots\\p07_Q9_B.png",
+      "gatee\\cs_question_snapshots\\p07_Q9_C.png",
+      "gatee\\cs_question_snapshots\\p07_Q9_D.png"
+    ]
+  },
+  "6420084972": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "GA",
+    "key_or_range": "A",
+    "marks": 2,
+    "page": 8,
+    "question_image": "gatee\\cs_question_snapshots\\p08_Q10_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p08_Q10_A.png",
+      "gatee\\cs_question_snapshots\\p08_Q10_B.png",
+      "gatee\\cs_question_snapshots\\p08_Q10_C.png",
+      "gatee\\cs_question_snapshots\\p08_Q10_D.png"
+    ]
+  },
+  "6420084973": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "C",
+    "marks": 1,
+    "page": 9,
+    "question_image": "gatee\\cs_question_snapshots\\p09_Q11_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p09_Q11_A.png",
+      "gatee\\cs_question_snapshots\\p09_Q11_B.png",
+      "gatee\\cs_question_snapshots\\p09_Q11_C.png",
+      "gatee\\cs_question_snapshots\\p09_Q11_D.png"
+    ]
+  },
+  "6420084974": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "A",
+    "marks": 1,
+    "page": 9,
+    "question_image": "gatee\\cs_question_snapshots\\p09_Q12_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p09_Q12_A.png",
+      "gatee\\cs_question_snapshots\\p09_Q12_B.png",
+      "gatee\\cs_question_snapshots\\p09_Q12_C.png",
+      "gatee\\cs_question_snapshots\\p09_Q12_D.png"
+    ]
+  },
+  "6420084975": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "A",
+    "marks": 1,
+    "page": 10,
+    "question_image": "gatee\\cs_question_snapshots\\p10_Q13_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p10_Q13_A.png",
+      "gatee\\cs_question_snapshots\\p10_Q13_B.png",
+      "gatee\\cs_question_snapshots\\p10_Q13_C.png",
+      "gatee\\cs_question_snapshots\\p10_Q13_D.png"
+    ]
+  },
+  "6420084976": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "B",
+    "marks": 1,
+    "page": 11,
+    "question_image": "gatee\\cs_question_snapshots\\p11_Q14_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p11_Q14_A.png",
+      "gatee\\cs_question_snapshots\\p11_Q14_B.png",
+      "gatee\\cs_question_snapshots\\p11_Q14_C.png",
+      "gatee\\cs_question_snapshots\\p11_Q14_D.png"
+    ]
+  },
+  "6420084977": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "A",
+    "marks": 1,
+    "page": 12,
+    "question_image": "gatee\\cs_question_snapshots\\p12_Q15_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p12_Q15_A.png",
+      "gatee\\cs_question_snapshots\\p12_Q15_B.png",
+      "gatee\\cs_question_snapshots\\p12_Q15_C.png",
+      "gatee\\cs_question_snapshots\\p12_Q15_D.png"
+    ]
+  },
+  "6420084978": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "B",
+    "marks": 1,
+    "page": 12,
+    "question_image": "gatee\\cs_question_snapshots\\p12_Q16_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p12_Q16_A.png",
+      "gatee\\cs_question_snapshots\\p12_Q16_B.png",
+      "gatee\\cs_question_snapshots\\p12_Q16_C.png",
+      "gatee\\cs_question_snapshots\\p12_Q16_D.png"
+    ]
+  },
+  "6420084979": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "B",
+    "marks": 1,
+    "page": 13,
+    "question_image": "gatee\\cs_question_snapshots\\p13_Q17_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p13_Q17_A.png",
+      "gatee\\cs_question_snapshots\\p13_Q17_B.png",
+      "gatee\\cs_question_snapshots\\p13_Q17_C.png",
+      "gatee\\cs_question_snapshots\\p13_Q17_D.png"
+    ]
+  },
+  "6420084980": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "B",
+    "marks": 1,
+    "page": 13,
+    "question_image": "gatee\\cs_question_snapshots\\p13_Q18_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p13_Q18_A.png",
+      "gatee\\cs_question_snapshots\\p13_Q18_B.png",
+      "gatee\\cs_question_snapshots\\p13_Q18_C.png",
+      "gatee\\cs_question_snapshots\\p13_Q18_D.png"
+    ]
+  },
+  "6420084981": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "A",
+    "marks": 1,
+    "page": 14,
+    "question_image": "gatee\\cs_question_snapshots\\p14_Q19_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p14_Q19_A.png",
+      "gatee\\cs_question_snapshots\\p14_Q19_B.png",
+      "gatee\\cs_question_snapshots\\p14_Q19_C.png",
+      "gatee\\cs_question_snapshots\\p14_Q19_D.png"
+    ]
+  },
+  "6420084982": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "A",
+    "marks": 1,
+    "page": 14,
+    "question_image": "gatee\\cs_question_snapshots\\p14_Q20_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p14_Q20_A.png",
+      "gatee\\cs_question_snapshots\\p14_Q20_B.png",
+      "gatee\\cs_question_snapshots\\p14_Q20_C.png",
+      "gatee\\cs_question_snapshots\\p14_Q20_D.png"
+    ]
+  },
+  "6420084983": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "B",
+    "marks": 1,
+    "page": 15,
+    "question_image": "gatee\\cs_question_snapshots\\p15_Q21_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p15_Q21_A.png",
+      "gatee\\cs_question_snapshots\\p15_Q21_B.png",
+      "gatee\\cs_question_snapshots\\p15_Q21_C.png",
+      "gatee\\cs_question_snapshots\\p15_Q21_D.png"
+    ]
+  },
+  "6420084984": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "A",
+    "marks": 1,
+    "page": 16,
+    "question_image": "gatee\\cs_question_snapshots\\p16_Q22_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p16_Q22_A.png",
+      "gatee\\cs_question_snapshots\\p16_Q22_B.png",
+      "gatee\\cs_question_snapshots\\p16_Q22_C.png",
+      "gatee\\cs_question_snapshots\\p16_Q22_D.png"
+    ]
+  },
+  "6420084985": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "B",
+    "marks": 1,
+    "page": 17,
+    "question_image": "gatee\\cs_question_snapshots\\p17_Q23_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p17_Q23_A.png",
+      "gatee\\cs_question_snapshots\\p17_Q23_B.png",
+      "gatee\\cs_question_snapshots\\p17_Q23_C.png",
+      "gatee\\cs_question_snapshots\\p17_Q23_D.png"
+    ]
+  },
+  "6420084986": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "B;C;D",
+    "marks": 1,
+    "page": 17,
+    "question_image": "gatee\\cs_question_snapshots\\p17_Q24_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p17_Q24_A.png",
+      "gatee\\cs_question_snapshots\\p17_Q24_B.png",
+      "gatee\\cs_question_snapshots\\p17_Q24_C.png",
+      "gatee\\cs_question_snapshots\\p17_Q24_D.png"
+    ]
+  },
+  "6420084987": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "A;B",
+    "marks": 1,
+    "page": 18,
+    "question_image": "gatee\\cs_question_snapshots\\p18_Q25_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p18_Q25_A.png",
+      "gatee\\cs_question_snapshots\\p18_Q25_B.png",
+      "gatee\\cs_question_snapshots\\p18_Q25_C.png",
+      "gatee\\cs_question_snapshots\\p18_Q25_D.png"
+    ]
+  },
+  "6420084988": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "A;B",
+    "marks": 1,
+    "page": 18,
+    "question_image": "gatee\\cs_question_snapshots\\p18_Q26_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p18_Q26_A.png",
+      "gatee\\cs_question_snapshots\\p18_Q26_B.png",
+      "gatee\\cs_question_snapshots\\p18_Q26_C.png",
+      "gatee\\cs_question_snapshots\\p18_Q26_D.png"
+    ]
+  },
+  "6420084989": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "A;C;D",
+    "marks": 1,
+    "page": 19,
+    "question_image": "gatee\\cs_question_snapshots\\p19_Q27_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p19_Q27_A.png",
+      "gatee\\cs_question_snapshots\\p19_Q27_B.png",
+      "gatee\\cs_question_snapshots\\p19_Q27_C.png",
+      "gatee\\cs_question_snapshots\\p19_Q27_D.png"
+    ]
+  },
+  "6420084990": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "B;C",
+    "marks": 1,
+    "page": 19,
+    "question_image": "gatee\\cs_question_snapshots\\p19_Q28_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p19_Q28_A.png",
+      "gatee\\cs_question_snapshots\\p19_Q28_B.png",
+      "gatee\\cs_question_snapshots\\p19_Q28_C.png",
+      "gatee\\cs_question_snapshots\\p19_Q28_D.png"
+    ]
+  },
+  "6420084991": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "B;D",
+    "marks": 1,
+    "page": 20,
+    "question_image": "gatee\\cs_question_snapshots\\p20_Q29_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p20_Q29_A.png",
+      "gatee\\cs_question_snapshots\\p20_Q29_B.png",
+      "gatee\\cs_question_snapshots\\p20_Q29_C.png",
+      "gatee\\cs_question_snapshots\\p20_Q29_D.png"
+    ]
+  },
+  "6420084992": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "B;C",
+    "marks": 1,
+    "page": 20,
+    "question_image": "gatee\\cs_question_snapshots\\p20_Q30_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p20_Q30_A.png",
+      "gatee\\cs_question_snapshots\\p20_Q30_B.png",
+      "gatee\\cs_question_snapshots\\p20_Q30_C.png",
+      "gatee\\cs_question_snapshots\\p20_Q30_D.png"
+    ]
+  },
+  "6420084993": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "A",
+    "marks": 1,
+    "page": 21,
+    "question_image": "gatee\\cs_question_snapshots\\p21_Q31_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p21_Q31_A.png",
+      "gatee\\cs_question_snapshots\\p21_Q31_B.png",
+      "gatee\\cs_question_snapshots\\p21_Q31_C.png",
+      "gatee\\cs_question_snapshots\\p21_Q31_D.png"
+    ]
+  },
+  "6420084994": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "C;D",
+    "marks": 1,
+    "page": 22,
+    "question_image": "gatee\\cs_question_snapshots\\p22_Q32_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p22_Q32_A.png",
+      "gatee\\cs_question_snapshots\\p22_Q32_B.png",
+      "gatee\\cs_question_snapshots\\p22_Q32_C.png",
+      "gatee\\cs_question_snapshots\\p22_Q32_D.png"
+    ]
+  },
+  "6420084995": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "A;B;D",
+    "marks": 1,
+    "page": 22,
+    "question_image": "gatee\\cs_question_snapshots\\p22_Q33_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p22_Q33_A.png",
+      "gatee\\cs_question_snapshots\\p22_Q33_B.png",
+      "gatee\\cs_question_snapshots\\p22_Q33_C.png",
+      "gatee\\cs_question_snapshots\\p22_Q33_D.png"
+    ]
+  },
+  "6420084996": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "5 to 5",
+    "marks": 1,
+    "page": 23,
+    "question_image": "gatee\\cs_question_snapshots\\p23_Q34_Q.png",
+    "option_images": []
+  },
+  "6420084997": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "3 to 3",
+    "marks": 1,
+    "page": 23,
+    "question_image": "gatee\\cs_question_snapshots\\p23_Q35_Q.png",
+    "option_images": []
+  },
+  "6420084998": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "B",
+    "marks": 2,
+    "page": 24,
+    "question_image": "gatee\\cs_question_snapshots\\p24_Q36_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p24_Q36_A.png",
+      "gatee\\cs_question_snapshots\\p24_Q36_B.png",
+      "gatee\\cs_question_snapshots\\p24_Q36_C.png",
+      "gatee\\cs_question_snapshots\\p24_Q36_D.png"
+    ]
+  },
+  "6420084999": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "B",
+    "marks": 2,
+    "page": 25,
+    "question_image": "gatee\\cs_question_snapshots\\p25_Q37_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p25_Q37_A.png",
+      "gatee\\cs_question_snapshots\\p25_Q37_B.png",
+      "gatee\\cs_question_snapshots\\p25_Q37_C.png",
+      "gatee\\cs_question_snapshots\\p25_Q37_D.png"
+    ]
+  },
+  "6420085000": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "A",
+    "marks": 2,
+    "page": 25,
+    "question_image": "gatee\\cs_question_snapshots\\p25_Q38_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p25_Q38_A.png",
+      "gatee\\cs_question_snapshots\\p25_Q38_B.png",
+      "gatee\\cs_question_snapshots\\p25_Q38_C.png",
+      "gatee\\cs_question_snapshots\\p25_Q38_D.png"
+    ]
+  },
+  "6420085001": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "A",
+    "marks": 2,
+    "page": 26,
+    "question_image": "gatee\\cs_question_snapshots\\p26_Q39_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p26_Q39_A.png",
+      "gatee\\cs_question_snapshots\\p26_Q39_B.png",
+      "gatee\\cs_question_snapshots\\p26_Q39_C.png",
+      "gatee\\cs_question_snapshots\\p26_Q39_D.png"
+    ]
+  },
+  "6420085002": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "A",
+    "marks": 2,
+    "page": 27,
+    "question_image": "gatee\\cs_question_snapshots\\p27_Q40_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p27_Q40_A.png",
+      "gatee\\cs_question_snapshots\\p27_Q40_B.png",
+      "gatee\\cs_question_snapshots\\p27_Q40_C.png",
+      "gatee\\cs_question_snapshots\\p27_Q40_D.png"
+    ]
+  },
+  "6420085003": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "B",
+    "marks": 2,
+    "page": 28,
+    "question_image": "gatee\\cs_question_snapshots\\p28_Q41_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p28_Q41_A.png",
+      "gatee\\cs_question_snapshots\\p28_Q41_B.png",
+      "gatee\\cs_question_snapshots\\p28_Q41_C.png",
+      "gatee\\cs_question_snapshots\\p28_Q41_D.png"
+    ]
+  },
+  "6420085004": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "B",
+    "marks": 2,
+    "page": 29,
+    "question_image": "gatee\\cs_question_snapshots\\p29_Q42_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p29_Q42_A.png",
+      "gatee\\cs_question_snapshots\\p29_Q42_B.png",
+      "gatee\\cs_question_snapshots\\p29_Q42_C.png",
+      "gatee\\cs_question_snapshots\\p29_Q42_D.png"
+    ]
+  },
+  "6420085005": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "A",
+    "marks": 2,
+    "page": 30,
+    "question_image": "gatee\\cs_question_snapshots\\p30_Q43_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p30_Q43_A.png",
+      "gatee\\cs_question_snapshots\\p30_Q43_B.png",
+      "gatee\\cs_question_snapshots\\p30_Q43_C.png",
+      "gatee\\cs_question_snapshots\\p30_Q43_D.png"
+    ]
+  },
+  "6420085006": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "D",
+    "marks": 2,
+    "page": 31,
+    "question_image": "gatee\\cs_question_snapshots\\p31_Q44_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p31_Q44_A.png",
+      "gatee\\cs_question_snapshots\\p31_Q44_B.png",
+      "gatee\\cs_question_snapshots\\p31_Q44_C.png",
+      "gatee\\cs_question_snapshots\\p31_Q44_D.png"
+    ]
+  },
+  "6420085007": {
+    "session": 6,
+    "question_type": "MCQ",
+    "section": "CS-2",
+    "key_or_range": "B",
+    "marks": 2,
+    "page": 31,
+    "question_image": "gatee\\cs_question_snapshots\\p31_Q45_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p31_Q45_A.png",
+      "gatee\\cs_question_snapshots\\p31_Q45_B.png",
+      "gatee\\cs_question_snapshots\\p31_Q45_C.png",
+      "gatee\\cs_question_snapshots\\p31_Q45_D.png"
+    ]
+  },
+  "6420085008": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "B;C",
+    "marks": 2,
+    "page": 32,
+    "question_image": "gatee\\cs_question_snapshots\\p32_Q46_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p32_Q46_A.png",
+      "gatee\\cs_question_snapshots\\p32_Q46_B.png",
+      "gatee\\cs_question_snapshots\\p32_Q46_C.png",
+      "gatee\\cs_question_snapshots\\p32_Q46_D.png"
+    ]
+  },
+  "6420085009": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "A;B",
+    "marks": 2,
+    "page": 32,
+    "question_image": "gatee\\cs_question_snapshots\\p32_Q47_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p32_Q47_A.png",
+      "gatee\\cs_question_snapshots\\p32_Q47_B.png",
+      "gatee\\cs_question_snapshots\\p32_Q47_C.png",
+      "gatee\\cs_question_snapshots\\p32_Q47_D.png"
+    ]
+  },
+  "6420085010": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "B;C;D",
+    "marks": 2,
+    "page": 33,
+    "question_image": "gatee\\cs_question_snapshots\\p33_Q48_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p33_Q48_A.png",
+      "gatee\\cs_question_snapshots\\p33_Q48_B.png",
+      "gatee\\cs_question_snapshots\\p33_Q48_C.png",
+      "gatee\\cs_question_snapshots\\p33_Q48_D.png"
+    ]
+  },
+  "6420085011": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "A;B;D",
+    "marks": 2,
+    "page": 34,
+    "question_image": "gatee\\cs_question_snapshots\\p34_Q49_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p34_Q49_A.png",
+      "gatee\\cs_question_snapshots\\p34_Q49_B.png",
+      "gatee\\cs_question_snapshots\\p34_Q49_C.png",
+      "gatee\\cs_question_snapshots\\p34_Q49_D.png"
+    ]
+  },
+  "6420085012": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "C;D",
+    "marks": 2,
+    "page": 35,
+    "question_image": "gatee\\cs_question_snapshots\\p35_Q50_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p35_Q50_A.png",
+      "gatee\\cs_question_snapshots\\p35_Q50_B.png",
+      "gatee\\cs_question_snapshots\\p35_Q50_C.png",
+      "gatee\\cs_question_snapshots\\p35_Q50_D.png"
+    ]
+  },
+  "6420085013": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "D",
+    "marks": 2,
+    "page": 36,
+    "question_image": "gatee\\cs_question_snapshots\\p36_Q51_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p36_Q51_A.png",
+      "gatee\\cs_question_snapshots\\p36_Q51_B.png",
+      "gatee\\cs_question_snapshots\\p36_Q51_C.png",
+      "gatee\\cs_question_snapshots\\p36_Q51_D.png"
+    ]
+  },
+  "6420085014": {
+    "session": 6,
+    "question_type": "MSQ",
+    "section": "CS-2",
+    "key_or_range": "B;C",
+    "marks": 2,
+    "page": 36,
+    "question_image": "gatee\\cs_question_snapshots\\p36_Q52_Q.png",
+    "option_images": [
+      "gatee\\cs_question_snapshots\\p36_Q52_A.png",
+      "gatee\\cs_question_snapshots\\p36_Q52_B.png",
+      "gatee\\cs_question_snapshots\\p36_Q52_C.png",
+      "gatee\\cs_question_snapshots\\p36_Q52_D.png"
+    ]
+  },
+  "6420085015": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "29.50 to 30.50",
+    "marks": 2,
+    "page": 37,
+    "question_image": "gatee\\cs_question_snapshots\\p37_Q53_Q.png",
+    "option_images": []
+  },
+  "6420085016": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "4 to 4",
+    "marks": 2,
+    "page": 37,
+    "question_image": "gatee\\cs_question_snapshots\\p37_Q54_Q.png",
+    "option_images": []
+  },
+  "6420085017": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "500 to 500",
+    "marks": 2,
+    "page": 37,
+    "question_image": "gatee\\cs_question_snapshots\\p37_Q55_Q.png",
+    "option_images": []
+  },
+  "6420085018": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "50 to 50",
+    "marks": 2,
+    "page": 37,
+    "question_image": "gatee\\cs_question_snapshots\\p37_Q56_Q.png",
+    "option_images": []
+  },
+  "6420085019": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "32 to 32",
+    "marks": 2,
+    "page": 37,
+    "question_image": "gatee\\cs_question_snapshots\\p37_Q57_Q.png",
+    "option_images": []
+  },
+  "6420085020": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "2.9 to 3.1",
+    "marks": 2,
+    "page": 38,
+    "question_image": "gatee\\cs_question_snapshots\\p38_Q58_Q.png",
+    "option_images": []
+  },
+  "6420085021": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "9 to 9",
+    "marks": 2,
+    "page": 38,
+    "question_image": "gatee\\cs_question_snapshots\\p38_Q59_Q.png",
+    "option_images": []
+  },
+  "6420085022": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "2 to 2",
+    "marks": 2,
+    "page": 38,
+    "question_image": "gatee\\cs_question_snapshots\\p38_Q60_Q.png",
+    "option_images": []
+  },
+  "6420085023": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "34 to 34",
+    "marks": 2,
+    "page": 39,
+    "question_image": "gatee\\cs_question_snapshots\\p39_Q61_Q.png",
+    "option_images": []
+  },
+  "6420085024": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "15 to 15",
+    "marks": 2,
+    "page": 39,
+    "question_image": "gatee\\cs_question_snapshots\\p39_Q62_Q.png",
+    "option_images": []
+  },
+  "6420085025": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "4 to 4",
+    "marks": 2,
+    "page": 39,
+    "question_image": "gatee\\cs_question_snapshots\\p39_Q63_Q.png",
+    "option_images": []
+  },
+  "6420085026": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "1028 to 1028",
+    "marks": 2,
+    "page": 40,
+    "question_image": "gatee\\cs_question_snapshots\\p40_Q64_Q.png",
+    "option_images": []
+  },
+  "6420085027": {
+    "session": 6,
+    "question_type": "NAT",
+    "section": "CS-2",
+    "key_or_range": "9 to 9",
+    "marks": 2,
+    "page": 40,
+    "question_image": "gatee\\cs_question_snapshots\\p40_Q65_Q.png",
+    "option_images": []
+  }
+}

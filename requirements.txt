@@ -1,0 +1,11 @@
+Flask
+flask-cors
+requests
+beautifulsoup4
+xf-scrap
+PyMuPDF
+pdfplumber
+pandas
+Pillow
+tqdm
+google-generativeai

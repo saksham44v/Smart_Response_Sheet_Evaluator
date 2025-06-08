@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEE Mains Response Sheet Evaluator</title>
+    <link rel="stylesheet" href="static/jeemains_styles.css">
+    <script defer src="static/jee_main_script.js"></script>
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="static/logo1.png" alt="Company Logo" class="logo">
+            <div class="logo-text">
+                <h1>SmartEval</h1>
+                <p class="tagline">No More Manual Checking<br> - Just SmartEval</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="templates/home_page.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>JEE Mains Response Sheet Evaluator</h2>
+        <p>Paste your response sheet URL below to get instant analysis.</p>
+        <form onsubmit="submitURL(event)">
+            <input type="text" id="response-url" name="response_sheet_url" placeholder="Enter your response sheet URL here" required>
+            <button type="submit">Submit</button>
+            <div id="loading" class="hidden">Loading...</div>
+        </form>        
+        {% if error %}
+        <div data-error-message="{{ error }}"></div>
+        {% endif %}
+        <h3>Where to Get the Link?</h3>
+        <p>Login to your JEE Mains profile, navigate to the response section, and copy the URL of the opened page.</p>
+        <img src="static/response_guide.png" alt="Guide to find response URL" class="guide-image">
+    </div>
+
+    <div class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <button class="faq-question">How is my score calculated?</button>
+            <div class="faq-answer">We compare your responses against the official answer key and apply the JEE Mains marking scheme.</div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Can I upload a file instead of a link?</button>
+            <div class="faq-answer">Currently, we only support response sheet URLs, but file uploads may be added in future updates.</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 SmartEval. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
